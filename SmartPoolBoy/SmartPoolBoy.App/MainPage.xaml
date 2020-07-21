@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="SmartPoolBoy.App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SmartPoolBoy.App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btModuleScannen" Content="Module Scannen" Height="50" Margin="69,69,0,0" VerticalAlignment="Top" Width="150" FontSize="15   " Click="btModuleScannen_Click"/>
+        <TextBlock x:Name="tbScannedDevices" HorizontalAlignment="Left" Height="542" Margin="69,168,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="861" MaxLines="499"/>
+    </Grid>
+</Page>
