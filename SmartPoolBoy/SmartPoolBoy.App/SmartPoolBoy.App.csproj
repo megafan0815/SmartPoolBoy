@@ -154,12 +154,6 @@
       <Version>6.2.10</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SmartPoolBoy.Konfiguration\SmartPoolBoy.Konfiguration.csproj">
-      <Project>{CC7DE7E9-3710-4115-AC96-43D0D0577A28}</Project>
-      <Name>SmartPoolBoy.Konfiguration</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
